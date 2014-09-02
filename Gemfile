@@ -4,12 +4,13 @@ group :production do
 	gem 'pg'
 end
 group :test do
-	gem 'capybara'
+	gem 'capybara', '1.1.2'
 end
 group :development do
 	gem 'sqlite3'
-	gem 'rspec-rails'
+	gem 'rspec-rails', '2.9.0'
 end
+gem 'minitest'
 group :assets do
 	gem 'sass-rails', '~> 4.0.3'
 	# Use Uglifier as compressor for JavaScript assets
@@ -25,7 +26,10 @@ gem 'rails', '4.1.5'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
