@@ -9,6 +9,7 @@ end
 group :development do
 	gem 'sqlite3'
 	gem 'rspec-rails', '2.9.0'
+	gem 'annotate', ' ~> 2.4.1.beta'
 end
 gem 'minitest'
 group :assets do
@@ -20,6 +21,7 @@ group :assets do
 end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
