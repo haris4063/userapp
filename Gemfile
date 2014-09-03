@@ -22,6 +22,9 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
 gem 'bcrypt'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.5'
+gem 'bootstrap-will_paginate', '0.0.6'
 # Use sqlite3 as the database for Active Record
 
 # Use SCSS for stylesheets
